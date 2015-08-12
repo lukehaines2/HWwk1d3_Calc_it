@@ -1,22 +1,26 @@
+
+var num1 = prompt('Choose a number');
+console.log('num1', num1)
+
 var op = prompt('choose an operation');
 console.log('op', op)
 
-var num1 = prompt('Choose a number');
-console.log('op', op)
-var num2 = prompt('Choose a number');
-console.log('op', op)
+var num2 = prompt('Choose another number');
+console.log('num2', num2)
 
 alert("Why is your console not open?")
 
-
-var = parseInt1 parseInt(num1);
-var = parseInt2 parseInt(num2);
+var parseInt1 = parseInt(num1);
+var parseInt2 = parseInt(num2);
 
 // MY CODE
 if (op == '+' || op == 'p') {
   console.log(parseInt1)
   console.log(parseInt2)
   }
+
+  var result = (parseInt1 + parseInt2)
+  prompt("Your result is : " + result);
 
   else if(op == '-' || op == 'm') {
   console.log(parseInt1)
@@ -36,6 +40,6 @@ if (op == '+' || op == 'p') {
   else {
     var op = prompt("Invalid input, please enter correct command");
   }
-}
 
-  var = result ("Your result is : " parseInt1, parseInt2);
+
+  
