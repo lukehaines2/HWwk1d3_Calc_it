@@ -1,5 +1,5 @@
-// var loop = true;
-// while (loop == true) {
+var loop = true;
+while (loop == true) {
 
   var Advanced_calc = prompt('Do you want (A)dvanced calculator, or (B)asic calculator?');
   console.log('Advanced_calc', Advanced_calc)
@@ -14,7 +14,6 @@
       var num2 = prompt('Choose another number');
       console.log('num2', num2)
   }
-  // if num op isnt sqrt then run 
 
   var parseInt1 = parseFloat(num1);
   var parseInt2 = parseFloat(num2);
@@ -58,7 +57,7 @@
   } else {
       var op = prompt("Invalid input, please enter correct command");
   }
-// break;
-// }
+
+}
 
   
