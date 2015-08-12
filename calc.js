@@ -2,11 +2,14 @@
 var num1 = prompt('Choose a number');
 console.log('num1', num1)
 
-var op = prompt('choose an operation');
+var op = prompt('choose (p)lus + , (m)inus - , (d)ivide / , or (t)imes * ');
 console.log('op', op)
 
+// if ( op != 'sqrt') {
 var num2 = prompt('Choose another number');
 console.log('num2', num2)
+}
+// if num op isnt sqrt then run 
 
 alert("Why is your console not open?")
 
