@@ -1,18 +1,41 @@
 var op = prompt('choose an operation');
 console.log('op', op)
 
-var num = prompt('Choose a number');
+var num1 = prompt('Choose a number');
 console.log('op', op)
-
-var goodNum = parseFloat(num);
-console.log(goodNum)
+var num2 = prompt('Choose a number');
+console.log('op', op)
 
 alert("Why is your console not open?")
 
 
-parseInt(num)   change number to not string
+var = parseInt1 parseInt(num1);
+var = parseInt2 parseInt(num2);
 
-typeof "5" 
-// equals string '5' not 5
+// MY CODE
+if (op == '+' || op == 'p') {
+  console.log(parseInt1)
+  console.log(parseInt2)
+  }
 
-parseFloat(num) change other stuff to not string
+  else if(op == '-' || op == 'm') {
+  console.log(parseInt1)
+  console.log(parseInt2)
+  }
+
+  else if(op == "/" || op == 'd') {
+  console.log(parseInt1)
+  console.log(parseInt2)
+  }
+  
+  else if(op == '*' || op == 't') {
+  console.log(parseInt1)
+  console.log(parseInt2)
+  }
+
+  else {
+    var op = prompt("Invalid input, please enter correct command");
+  }
+}
+
+  var = result ("Your result is : " parseInt1, parseInt2);
